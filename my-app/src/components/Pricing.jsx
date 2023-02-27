@@ -5,6 +5,12 @@ import clsx from 'clsx'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Logomark } from '@/components/Logo'
+import { websiteURL } from '@/data/URL'
+
+function redirectFunction(name) {
+  console.log(name)
+  window.location.replace(`${websiteURL}/subscribe?v=${name}`)
+}
 
 const plans = [
   {
@@ -178,7 +184,9 @@ function Plan({
         </ul>
       </div>
       <Button
-        href={button.href}
+        onClick={() => {
+          redirectFunction(name)
+        }}
         color={featured ? 'cyan' : 'gray'}
         className="mt-6"
         aria-label={`Get started with the ${name} plan for ${price}`}
