@@ -16,7 +16,7 @@ const plans = [
   {
     name: '',
     featured: true,
-    price: { Monthly: '$199', Annually: '$1,990' },
+    price: { Monthly: '$FREE!!', Annually: '$1,990' },
     description: '',
     button: {
       label: 'Get started',
@@ -24,8 +24,8 @@ const plans = [
     },
     features: [
       'Live prayer times',
-      'schedule events,',
-      'custom domain website',
+      'Schedule events',
+      'Custom domain website',
       'Sermon footnotes',
       'Run programs',
       'Upload Quran files',
@@ -69,6 +69,7 @@ function Plan({
 }) {
   return (
     <section
+      style={{ width: '50vw' }}
       className={clsx(
         'flex flex-col overflow-hidden rounded-3xl p-6 shadow-lg shadow-gray-900/5',
         featured ? 'order-first bg-gray-900 lg:order-none' : 'bg-white'
