@@ -14,22 +14,23 @@ function redirectFunction(name) {
 
 const plans = [
   {
-    name: 'VIP',
+    name: '',
     featured: true,
     price: { Monthly: '$199', Annually: '$1,990' },
-    description:
-      'You’ve got many attendees and run a popular institition but there could be more to offer. Alhamdulilah.',
+    description: '',
     button: {
-      label: 'Subscribe',
+      label: 'Get started',
       href: '/register',
     },
     features: [
-      'Commission-free trading',
-      'Multi-layered encryption',
-      'Real-time tip notifications',
-      'No investment limits',
-      'Advanced transaction anonymization',
-      'Automated tax-loss harvesting',
+      'Live prayer times',
+      'schedule events,',
+      'custom domain website',
+      'Sermon footnotes',
+      'Run programs',
+      'Upload Quran files',
+      'Upload Sermons',
+      'Mosque Display',
     ],
     logomarkClassName: 'fill-cyan-500',
   },
@@ -175,11 +176,13 @@ export function Pricing() {
             id="pricing-title"
             className="text-3xl font-medium tracking-tight text-gray-900"
           >
-            Enabling mosques since 2023 Free forever.
+            Enabling mosques since 2023
+            <h1 class="bg-gradient-to-br from-pink-400 to-red-600 bg-clip-text text-6xl font-extrabold text-transparent">
+              Free forever.
+            </h1>
           </h2>
           <p className="mt-2 text-lg text-gray-600">
-            Whether you’re a small mosque trying to get seen or encumbered
-            trying to serve the ummah, we’ve got a plan for you.
+            Get online, get recognized & get digital today.
           </p>
         </div>
 

@@ -12,7 +12,7 @@ const faqs = [
     {
       question: 'How much does this cost?',
       answer:
-        'Yes exactly. cost does matter.It is completely free off charge We are a volunteer based team.',
+        'Yes exactly. cost does matter. It is completely free off charge, we are a volunteer based team.',
     },
     {
       question: 'How long does it take to get started?',

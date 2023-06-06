@@ -262,11 +262,11 @@ export function Reviews() {
           id="reviews-title"
           className="text-3xl font-medium tracking-tight text-gray-900 sm:text-center"
         >
-          Everyone is changing their life with Mosque.icu.
+          Everyone loves using the app.
         </h2>
         <p className="mt-2 text-lg text-gray-600 sm:text-center">
-          Many people have felt more connected to their Masjid and their Akhira
-          in the last 30 days.
+          Many people have reported feeling more connected to their Religion and
+          their Masjid.
         </p>
         <ReviewGrid />
       </Container>
