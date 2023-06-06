@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div style={{ backgroundColor: '#173300' }}>
       <Head>
-        <title>Mosque.icu - Find a mosque.</title>
+        <title>Mosque.icu - Find a mosque</title>
         <meta
           name="description"
           content="By promoting institutions from our network, you’ll know exactly when to pray, where to pray and what you missed out on."
