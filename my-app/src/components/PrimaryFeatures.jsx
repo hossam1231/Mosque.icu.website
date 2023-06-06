@@ -549,7 +549,8 @@ export function PrimaryFeatures() {
       <Container>
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-3xl">
           <h2 className="text-3xl font-medium tracking-tight text-white">
-            Every feature you have been wondering why it wasn`'`t here earlier.
+            Every feature you have been wondering why it wasn&apos;t here
+            earlier.
           </h2>
           <p className="mt-2 text-lg text-gray-400">
             We recognize the challenges faced by those who embark on the journey
