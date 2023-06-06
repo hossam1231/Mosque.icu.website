@@ -149,6 +149,7 @@ function Plan({
         </ul>
       </div>
       <Button
+        style={{ backgroundColor: '#B3E5A2', color: '#262626' }}
         onClick={() => {
           redirectFunction(name)
         }}
@@ -177,9 +178,9 @@ export function Pricing() {
             id="pricing-title"
             className="text-3xl font-medium tracking-tight text-gray-900"
           >
-            Enabling mosques since 2023
+            Enabling Mosques since 2023
           </h2>
-          <h1 className="bg-gradient-to-br from-pink-400 to-red-600 bg-clip-text text-6xl font-extrabold text-transparent">
+          <h1 className="bg-gradient-to-br from-[#9FE96D] to-[#184406] bg-clip-text text-6xl font-extrabold text-transparent">
             Free forever.
           </h1>
 

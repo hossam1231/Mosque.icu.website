@@ -195,12 +195,12 @@ export function SecondaryFeatures() {
     >
       <Container>
         <div className="mx-auto max-w-2xl sm:text-center">
-          <h2 className="text-3xl font-medium tracking-tight text-gray-900">
+          <h2 className="text-3xl font-medium tracking-tight text-white">
             You asked we listened.
           </h2>
-          <p className="mt-2 text-lg text-gray-600">
-            With typical market returns, you have to start young to secure your
-            future. With Mosque.icu, it’s never too late to build your nest egg.
+          <p className="mt-2 text-lg text-[#C1CFB8]">
+            Sought after tools by every believer but often hidden behind a pay
+            wall we provide these free off charge.
           </p>
         </div>
         <ul
@@ -213,10 +213,8 @@ export function SecondaryFeatures() {
               className="rounded-2xl border border-gray-200 p-8"
             >
               <feature.icon className="h-8 w-8" />
-              <h3 className="mt-6 font-semibold text-gray-900">
-                {feature.name}
-              </h3>
-              <p className="mt-2 text-gray-700">{feature.description}</p>
+              <h3 className="mt-6 font-semibold text-white">{feature.name}</h3>
+              <p className="mt-2 text-[#C1CFB8]">{feature.description}</p>
             </li>
           ))}
         </ul>

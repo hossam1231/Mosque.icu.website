@@ -37,7 +37,7 @@ function MobileNavLink({ children, ...props }) {
   return (
     <Popover.Button
       as={Link}
-      className="block text-base leading-7 tracking-tight text-gray-700"
+      className="block text-base leading-7 tracking-tight text-[#C1CFB8]"
       {...props}
     >
       {children}
@@ -110,9 +110,7 @@ export function Header() {
                             <MobileNavLink href="#faqs">FAQs</MobileNavLink>
                           </div>
                           <div className="mt-8 flex flex-col gap-4">
-                            <Button href="/login" variant="outline">
-                              Log in
-                            </Button>
+                            <Button href="www.web.mosque.icu">Log in</Button>
                             <Button href="#">Download the app</Button>
                           </div>
                         </Popover.Panel>
@@ -122,7 +120,11 @@ export function Header() {
                 </>
               )}
             </Popover>
-            <Button href="/login" variant="outline" className="hidden lg:block">
+            <Button
+              color="white"
+              href="www.web.mosque.icu"
+              className="hidden lg:block"
+            >
               Log in
             </Button>
             <Button href="#" className="hidden lg:block">
