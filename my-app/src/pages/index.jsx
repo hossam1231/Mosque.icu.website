@@ -12,7 +12,7 @@ import { SecondaryFeatures } from '@/components/SecondaryFeatures'
 
 export default function Home() {
   return (
-    <>
+    <div style={{ backgroundColor: '#173300' }}>
       <Head>
         <title>Mosque.icu - Invest in the Akhira one step at a time.</title>
         <meta
@@ -31,6 +31,6 @@ export default function Home() {
         <Faqs />
       </main>
       <Footer />
-    </>
+    </div>
   )
 }
