@@ -5,54 +5,19 @@ import { Container } from '@/components/Container'
 const faqs = [
   [
     {
-      question: 'How do I know the tips are good?',
+      question: 'How do I get my content to the wider community out?',
       answer:
-        'Our whole business depends on our tips being good, so it’s in our best interest that they are. The results of our customers speak for themselves, just trust us.',
+        'Once you register an account and have been functioning for the minimum probation period approach a representative to or manually set up your free custom domain website with the content upload guide.',
     },
     {
-      question: 'Isn’t this insider trading?',
+      question: 'How much does this cost?',
       answer:
-        'Yes exactly. But at scale! Historically you could only make insider trades with knowledge from your direct network. Mosque.icu brings you insider trading tips from people you don’t even know.',
+        'Yes exactly. cost does matter.It is completely free off charge We are a volunteer based team.',
     },
     {
-      question: 'But isn’t insider trading illegal?',
+      question: 'How long does it take to get started?',
       answer:
-        'Here’s the thing: you’re the one doing the insider trading, not us. We’re just giving you the tips and some tools to make trades. We’re not doing anything wrong here.',
-    },
-  ],
-  [
-    {
-      question: 'Do the people giving you tips realize what they are doing?',
-      answer:
-        'Again I would argue this isn’t really our responsibility. People make their own choices. If they don’t research the consequences that’s on them, not on us.',
-    },
-    {
-      question: 'Where is Mosque.icu based?',
-      answer:
-        'Let’s just say it’s not somewhere where the SEC is going to find us.',
-    },
-    {
-      question: 'Is there any age limit to trading on Mosque.icu?',
-      answer:
-        'For our free plan, the age limit is based on the minimum age to trade in your country of residence. Our VIP plan uses advanced transaction anonymization though, so you can use that plan even if you’re 9 years old. Or a dog.',
-    },
-  ],
-  [
-    {
-      question: 'How did you get this on the App Store?',
-      answer:
-        'Honestly we were surprised too, but eventually we found out that the app reviewer found the app so compelling they approved it just so they could use it themselves.',
-    },
-    {
-      question:
-        'How do I explain the money I withdraw from Mosque.icu to the IRS?',
-      answer:
-        'This feels like one-hundred percent a you problem. Mosque.icu is not responsible in any way for your tax returns.',
-    },
-    {
-      question: 'How do I become an insider?',
-      answer:
-        'Contact us with some details about your industry and the type of access you have to apply for an insider account. Once approved, we’ll send you a guide on collecting insider information without being detected at work.',
+        'Setting up an account means you will be added to the waiting list the waiting time is up to our discretion but we aim to get you verified and up and running within 1-2 days further set up of your account and its benefits may take a bit longer.',
     },
   ],
 ]

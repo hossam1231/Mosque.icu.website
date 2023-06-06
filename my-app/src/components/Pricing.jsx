@@ -14,43 +14,6 @@ function redirectFunction(name) {
 
 const plans = [
   {
-    name: 'Starter',
-    featured: false,
-    price: { Monthly: '$0', Annually: '$0' },
-    description:
-      'You’re a smaller instituion but want to do it right. Get started for free.',
-    button: {
-      label: 'Get started for free',
-      href: '/register',
-    },
-    features: [
-      'Commission-free trading',
-      'Multi-layered encryption',
-      'One tip every day',
-      'Invest up to $1,500 each month',
-    ],
-    logomarkClassName: 'fill-gray-300',
-  },
-  {
-    name: 'Investor',
-    featured: false,
-    price: { Monthly: '$7', Annually: '$70' },
-    description:
-      'You’ve been open for a while. Explore options and improve your exepriences.',
-    button: {
-      label: 'Subscribe',
-      href: '/register',
-    },
-    features: [
-      'Commission-free trading',
-      'Multi-layered encryption',
-      'One tip every hour',
-      'Invest up to $15,000 each month',
-      'Basic transaction anonymization',
-    ],
-    logomarkClassName: 'fill-gray-500',
-  },
-  {
     name: 'VIP',
     featured: true,
     price: { Monthly: '$199', Annually: '$1,990' },
@@ -212,7 +175,7 @@ export function Pricing() {
             id="pricing-title"
             className="text-3xl font-medium tracking-tight text-gray-900"
           >
-            Flat pricing, as affordable as possible.
+            Enabling mosques since 2023 Free forever.
           </h2>
           <p className="mt-2 text-lg text-gray-600">
             Whether you’re a small mosque trying to get seen or encumbered
@@ -222,55 +185,13 @@ export function Pricing() {
 
         <div className="mt-8 flex justify-center">
           <div className="relative">
-            <RadioGroup
-              value={activePeriod}
-              onChange={setActivePeriod}
-              className="grid grid-cols-2"
-            >
-              {['Monthly', 'Annually'].map((period) => (
-                <RadioGroup.Option
-                  key={period}
-                  value={period}
-                  className={clsx(
-                    'cursor-pointer border border-gray-300 py-[calc(theme(spacing.2)-1px)] px-[calc(theme(spacing.3)-1px)] text-sm text-gray-700 outline-2 outline-offset-2 transition-colors hover:border-gray-400',
-                    period === 'Monthly'
-                      ? 'rounded-l-lg'
-                      : '-ml-px rounded-r-lg'
-                  )}
-                >
-                  {period}
-                </RadioGroup.Option>
-              ))}
-            </RadioGroup>
-            <div
-              aria-hidden="true"
-              className={clsx(
-                'pointer-events-none absolute inset-0 z-10 grid grid-cols-2 overflow-hidden rounded-lg bg-cyan-500 transition-all duration-300',
-                activePeriod === 'Monthly'
-                  ? '[clip-path:inset(0_50%_0_0)]'
-                  : '[clip-path:inset(0_0_0_calc(50%-1px))]'
-              )}
-            >
-              {['Monthly', 'Annually'].map((period) => (
-                <div
-                  key={period}
-                  className={clsx(
-                    'py-2 text-center text-sm font-semibold text-white [&:not(:focus-visible)]:focus:outline-none',
-                    period === 'Annually' && '-ml-px'
-                  )}
-                >
-                  {period}
-                </div>
-              ))}
-            </div>
+            {plans.map((plan) => (
+              <Plan key={plan.name} {...plan} activePeriod={activePeriod} />
+            ))}
           </div>
         </div>
 
-        <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-10 sm:mt-20 lg:max-w-none lg:grid-cols-3">
-          {plans.map((plan) => (
-            <Plan key={plan.name} {...plan} activePeriod={activePeriod} />
-          ))}
-        </div>
+        <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-10 sm:mt-20 lg:max-w-none lg:grid-cols-3"></div>
       </Container>
     </section>
   )

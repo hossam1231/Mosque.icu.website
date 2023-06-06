@@ -340,8 +340,8 @@ export function Hero() {
       <Container>
         <div className="lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-20">
           <div className="relative z-10 mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6">
-            <h1 className="text-4xl font-medium tracking-tight text-gray-900">
-              FInd a mosque local to you.{' '}
+            <h1 class="bg-gradient-to-br from-pink-400 to-red-600 bg-clip-text text-6xl font-extrabold text-transparent">
+              What time is the Jummah around me?
             </h1>
             <p className="mt-6 text-lg text-gray-600">
               By promoting our network of Masjids, you’ll know exactly when to

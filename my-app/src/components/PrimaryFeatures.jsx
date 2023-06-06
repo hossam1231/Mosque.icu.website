@@ -24,21 +24,21 @@ const MotionAppScreenBody = motion(AppScreen.Body)
 
 const features = [
   {
-    name: 'Invite friends for better returns',
+    name: 'Prayer tracker',
     description:
       'For every friend you invite to Mosque.icu, you get insider notifications 5 seconds sooner. And it’s 10 seconds if you invite an insider.',
     icon: DeviceUserIcon,
     screen: InviteScreen,
   },
   {
-    name: 'Notifications on stock dips',
+    name: 'Guides & tutorials',
     description:
       'Get a push notification every time we find out something that’s going to lower the share price on your holdings so you can sell before the information hits the public markets.',
     icon: DeviceNotificationIcon,
     screen: StocksScreen,
   },
   {
-    name: 'Invest what you want',
+    name: 'Quran translations',
     description:
       'We hide your stock purchases behind thousands of anonymous trading accounts, so suspicious activity can never be traced back to you.',
     icon: DeviceTouchIcon,
@@ -549,13 +549,14 @@ export function PrimaryFeatures() {
       <Container>
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-3xl">
           <h2 className="text-3xl font-medium tracking-tight text-white">
-            Every feature you need to be of the successful. Try it for yourself.
+            Every feature you have been wondering why it wasn't here earlier.
           </h2>
           <p className="mt-2 text-lg text-gray-400">
-            ​​Mosque.icu was built for muslims like you who use their phones for
-            halal and also are interested in attending the mosque and becoming
-            part of the community. If other companies are afraid to build it,
-            Mosque.icu has it.
+            We recognize the challenges faced by those who embark on the journey
+            of embracing Islam. Our software will serve as a comprehensive
+            resource, offering step-by-step guidance, curated content, and
+            interactive features to facilitate learning, understanding, and
+            integration into the Muslim community.
           </p>
         </div>
       </Container>
