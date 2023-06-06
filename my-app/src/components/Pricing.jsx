@@ -4,7 +4,7 @@ import clsx from 'clsx'
 
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
-import { Logomark } from '@/components/Logo'
+import Logo from '@/components/Logo'
 import { websiteURL } from '@/data/URL'
 
 function redirectFunction(name) {
@@ -32,7 +32,7 @@ const plans = [
       'Upload Sermons',
       'Mosque Display',
     ],
-    logomarkClassName: 'fill-cyan-500',
+    logoClassName: 'fill-cyan-500',
   },
 ]
 
@@ -65,7 +65,7 @@ function Plan({
   features,
   featured = false,
   activePeriod,
-  logomarkClassName,
+  logoClassName,
 }) {
   return (
     <section
@@ -81,7 +81,7 @@ function Plan({
           featured ? 'text-white' : 'text-gray-900'
         )}
       >
-        <Logomark className={clsx('h-6 w-6 flex-none', logomarkClassName)} />
+        <Logo className={clsx('h-6 w-6 flex-none', logoClassName)} />
         <span className="ml-4">{name}</span>
       </h3>
       <p
@@ -178,10 +178,11 @@ export function Pricing() {
             className="text-3xl font-medium tracking-tight text-gray-900"
           >
             Enabling mosques since 2023
-            <h1 className="bg-gradient-to-br from-pink-400 to-red-600 bg-clip-text text-6xl font-extrabold text-transparent">
-              Free forever.
-            </h1>
           </h2>
+          <h1 className="bg-gradient-to-br from-pink-400 to-red-600 bg-clip-text text-6xl font-extrabold text-transparent">
+            Free forever.
+          </h1>
+
           <p className="mt-2 text-lg text-gray-600">
             Get online, get recognized & get digital today.
           </p>
