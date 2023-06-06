@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import imageAsset from '/public/images/logo.png'
 
-export default function Component() {
+export default function Logo() {
   return (
     <>
       <Image
