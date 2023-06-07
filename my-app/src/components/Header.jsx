@@ -122,7 +122,7 @@ export function Header() {
             </Popover>
             <Button
               color="white"
-              href="www.web.mosque.icu"
+              href="https://www.web.mosque.icu"
               className="hidden lg:block"
             >
               Log in
