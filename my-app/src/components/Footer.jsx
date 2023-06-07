@@ -22,7 +22,7 @@ function QrCodeBorder(props) {
 
 export function Footer() {
   return (
-    <footer className="border-t border-gray-200">
+    <footer className="border-t border-[#C1CFB8]">
       <Container>
         <div className="flex flex-col items-start justify-between gap-y-12 pt-16 pb-6 lg:flex-row lg:items-center lg:py-16">
           <div>
@@ -59,7 +59,7 @@ export function Footer() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col items-center border-t border-gray-200 pt-8 pb-12 md:flex-row-reverse md:justify-between md:pt-6">
+        <div className="flex flex-col items-center border-t border-[#C1CFB8] pt-8 pb-12 md:flex-row-reverse md:justify-between md:pt-6">
           <form className="flex w-full justify-center md:w-auto">
             <TextField
               type="email"
