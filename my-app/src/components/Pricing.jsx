@@ -69,7 +69,7 @@ function Plan({
 }) {
   return (
     <section
-      style={{ width: '50vw' }}
+      style={{ width: '75vw' }}
       className={clsx(
         'flex flex-col overflow-hidden rounded-3xl p-6 shadow-lg shadow-gray-900/5',
         featured ? 'order-first bg-gray-900 lg:order-none' : 'bg-white'
@@ -196,8 +196,6 @@ export function Pricing() {
             ))}
           </div>
         </div>
-
-        <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-10 sm:mt-20 lg:max-w-none lg:grid-cols-3"></div>
       </Container>
     </section>
   )
